@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 
+// copies js files
 module.exports = () => {
   return gulp.src([
     'node_modules/jquery/dist/jquery.js',
